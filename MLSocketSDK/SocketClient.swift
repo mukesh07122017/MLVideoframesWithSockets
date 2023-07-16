@@ -110,7 +110,7 @@ open class SocketClient {
         
     }
     /**
-        Connects the client to the PTG API.
+        Connects the client to the  API.
      */
     public func connect() {
         self.socket.connect()
@@ -220,7 +220,7 @@ open class SocketClient {
    
 
     /**
-    Sends an image to the PTG API endpoint.
+    Sends an image to the  API endpoint.
     - Parameter image: The image as data.
     - Remark: Note that the underlying buffer must contain the image data in JPEG format.
     */
@@ -244,7 +244,7 @@ open class SocketClient {
     }
 
     /**
-    Sends an image to the PTG API endpoint.
+    Sends an image to the  API endpoint.
 
     - Parameter image: The image as UInt8 array.
     - Remark: Note that the image data needs to be in JPEG format.

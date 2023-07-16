@@ -66,10 +66,9 @@ class ViewController: UIViewController {
         //ws://3.18.131.173/ws/getimage/
         
         
-        //ws://2d.ptgenie.com/ws/getimage/
-     //   ws://2dtest.ptgenie.com/ws/getimage/PTG001/?api_key=cdb3781977281e9e516b215dd410e319962caf8b
+   
 
-        let ulrString = "ws://2d.ptgenie.com/ws/getimage/" + exerciseID! + "/?api_key=cdb3781977281e9e516b215dd410e319962caf8b"
+        let ulrString = "ws://2d.localhost.com/ws/getimage/" + exerciseID! + "/?api_key=cdb3781977281e9e516b215dd410e319962caf8b"
         
         let uri = URL(string: ulrString)
         client = try! SocketClient(uri: uri!)

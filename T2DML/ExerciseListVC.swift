@@ -34,7 +34,6 @@ class ExerciseListVC: UIViewController,UITableViewDataSource,UITableViewDelegate
         let exerciseID6 :[String : Any] = ["Name": "Right Hip arom flexion", "Id" : "PTG006"]
         self.arrayxercise.append(exerciseID6 as AnyObject)
         
-       // arrayxercise = ["PTG001","PTG002","PTG003","PTG004"]
           
         // Do any additional setup after loading the view.
     }
