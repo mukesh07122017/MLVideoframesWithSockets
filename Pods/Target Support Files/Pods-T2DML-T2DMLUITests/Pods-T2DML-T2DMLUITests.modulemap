@@ -1,0 +1,6 @@
+framework module Pods_T2DML_T2DMLUITests {
+  umbrella header "Pods-T2DML-T2DMLUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

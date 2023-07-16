@@ -1,0 +1,6 @@
+framework module Pods_T2DML {
+  umbrella header "Pods-T2DML-umbrella.h"
+
+  export *
+  module * { export * }
+}
